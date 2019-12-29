@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "stack.h"
+#include "../src/stack.h"
 
 int main(int argc, char **argv)
 {

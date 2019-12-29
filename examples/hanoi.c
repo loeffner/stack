@@ -14,7 +14,7 @@ The puzzle has the following two rules:
 */
 
 #include <stdio.h>
-#include "../../src/stack.h"
+#include "../src/stack.h"
 
 #define NR_DISKS 3
 
