@@ -1,5 +1,4 @@
 #include "stack.h"
-#include <stdio.h>
 
 /* create a handle and allocate an array of void pointers, if capacity <= 0 memory will be dynamically allocated*/
 STACK_HANDLE stack_init(int capacity)
