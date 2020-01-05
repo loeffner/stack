@@ -1,3 +1,9 @@
+/* This data structure only handles (void) pointers. The user has to take care of managing them
+ * Currently an error code is indistinguishable from a void* data e.g. in stack_pop.
+ * TODO: fix this. Idea: Let the user provide a storage location for the result and return a bool (or int)
+ * TODO: malloc on the variable name
+ */
+
 #include "stack.h"
 
 /* create a handle and allocate an array of void pointers, if capacity <= 0 memory will be dynamically allocated*/
